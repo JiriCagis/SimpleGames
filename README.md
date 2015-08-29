@@ -17,4 +17,4 @@ Každý hráč má k dispozici čtyři kameny. Hráči postupně kladou kameny n
 <h3>Jezdcova procházka </h3>
 šachový a matematický problém popsaný pomocí šachové figury jezdce a šachovnice. Jezdec se pohybuje v souladu s šachovými pravidly po prázdné šachovnici a jeho úkolem je, aby každé pole navštívil právě jednou.
 
-... A dálší algoritmické rébusy
+A dálší algoritmické hříčky ...
