@@ -1,20 +1,26 @@
-<h1> Jednoduché hry </h1>
-Projekt obsahuje řadu terminálových her z doby kdy jsem se učil programovat. Všechny hry jsou napsány v jazyce C a
-řeší určitý algoritmický problém. 
+<h1>Simple games</h1>
+Project contains a large number of terminal games from era learning programming. All games was write in programming language C and each game solves certain algorithm problem.
 
 <h3>Tetris </h3>
-Tetromina, neboli kostky skládající se ze 4 čtverečků, padají po obrazovce a hráč je rovná do zdi od dolního konce hrací plochy. Řádek zaplněný bez děr zmizí. Hráč se snaží co nejdéle „odmazávat“ řádky; hra končí, když zeď dostoupí horního okraje hrací plochy.
-Najednou můžou zmizet maximálně čtyři řádky, čehož lze dosáhnout jen dílkem I; takovýto tah se nazývá tetris.
+Game called  the tetris or simple dices. Main idea game is falling block of 4 dices from top to bottom. A Player sort falling blocks in bottom row. Goal game is fill a row without a gap. After you fill the row, the row is remove from the game. The player tries long time remove bottom rows, because when a falling block fill all a posible space the game end. At once you can remove only four rows, because max length block is formed by four dices vertical called “I” or “tetris”.
 
-<h3>Sudoku řešitel </h3>
-Program pomocí rekurze umožňuje generovat nová sudoku. Postupně se pokouší vložit číslo do prázdné buňky a poté testuje jestli dané číslo může v políčku být. Následuje vkládání dalších čísel než mřížka do doby než mřížka bude plná. Pokud nelze vložit žádné číslo do políčka, algoritmus se vrácí zpátky k předchozímu políčku a snaží se najít jiné vhodné číslo. Po vygenerování mřížky čísel dojde k odstranění určitého počtu políček, dle definice programátora. Tím se určuje složitost, například pokud odstraním z mřížky jenom 10 políček sudoku bude lehce dohratelné.
+<h3>Sudoku</h3>
+Sudoku is a logical numbers game for one player. The classic Sudoku game involves a grid of 81 squares. The grid is divided into nide block, each block contain nine squeares. The rule of the game are simple: Each of the nine block should contain all the numbers 1-9 within its squares. Each number can only once appear in a row, a column and a block. The difficulty lies in that all a vertical nine-square column, a horizontal nine-square line and a box must also contain the numbembers 1-9 without repettion or omission.
+<br>
+
+<b>Describe algorithm generate sudoku</b>
+<br>
+The algorithm inicialize sequence numbers for filling fields. After it recursive tries put one number from the sequence numbers and it test if the number really belong to this field. The algorithm tries put another numbers consecutive. It returns back to previous field and examine other number from sequence if it does not put nothing a number from the sequence. In last step remove numbers from a grid on random positions. Difficult the game is given how many fields will be removed from the grid after generate.
 
 <h3>Tic tac toe </h3>
-Cílem hry Tic Tac Toe, rovněž známé jako Anglický mlýnek, je vytvořit řadu ze svých tří kamenů. Máte-li rádi piškvorky, bude se vám tato hry pro dva hráče jistě líbit.
-Jak hrát?
-Každý hráč má k dispozici čtyři kameny. Hráči postupně kladou kameny na hrací desku. Vítězí ten hráč, kterému se podařilo vytvořit souvislou řadu ze svých tří kamenů. Pokud se to nepodaří ani jednomu z nich, nastává remíza.
+A Game knows as “English Grinder” too. A goal the game is create line (vertical, horizontal or bevel) from three stones. When you know the game piskvorky, the tic tac toe is very similar and you love it for simplicity.
+<br/>
 
-<h3>Jezdcova procházka </h3>
-šachový a matematický problém popsaný pomocí šachové figury jezdce a šachovnice. Jezdec se pohybuje v souladu s šachovými pravidly po prázdné šachovnici a jeho úkolem je, aby každé pole navštívil právě jednou.
+<b>How do you play?</b>
+Each player has four stones. Players put stones on the  game board. Player win if he create line from three stones. So players put all stones into the gameboard, game finish with state (Remiza - draw)
 
-A dálší algoritmické hříčky ...
+<h3>King walk</h3>
+Algorithm solves mathematic and chess problem. The problem turns around moves figure king on a chessboard. The king move by chess rules on empty the chessboard. Goal is visit each field on chessboar once one.
+
+And another algorithm games :)
+
